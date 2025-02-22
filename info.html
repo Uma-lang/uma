@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ホーム</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/openclose.js"></script>
+  <script src="js/fixmenu_pagetop.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+      <h1 id="logo"><a href="index.php"><img src="images/logo.png" alt="Obaradai Hotel"></a></h1>
+      <p id="tel">ご予約・お問い合わせ<br>
+        <span class="big1">電話番号: 046-841-3810(代表)</span><br>
+        <span class="mini1">24時間 365日営業</span>
+      </p>
+    </header>
+
+    <!--PC用メニュー-->
+    <nav id="menubar">
+      <ul>
+        <li><a href="index.php">Home<span>ホーム</span></a></li>
+        <li class="current"><a href="info.html">Information<span>ホテルのご案内</span></a></li>
+        <li><a href="plan.html">Plan<span>ご宿泊プラン</span></a></li>
+        <li><a href="access.html">Access<span>アクセス・周辺環境</span></a></li>
+				<li><a href="reservation.html">Reservation<span>ご予約</span></a></li>
+				<li><a href="contact.html">Contact<span>お問合せ</span></a></li>
+      </ul>
+    </nav>
+
+    <!--小さな端末用メニュー-->
+    <nav id="menubar-s">
+      <ul>
+        <li><a href="index.php">Home<span>ホーム</span></a></li>
+        <li class="current"><a href="info.html">Information<span>ホテルのご案内</span></a></li>
+        <li><a href="plan.html">Plan<span>ご宿泊プラン</span></a></li>
+        <li><a href="access.html">Access<span>アクセス・周辺環境</span></a></li>
+				<li><a href="reservation.html">Reservation<span>ご予約</span></a></li>
+				<li><a href="contact.html">Contact<span>お問合せ</span></a></li>
+      </ul>
+    </nav>
+
+    <div id="contents">
+
+      <div id="main">
+
+        <section>
+
+          <h2 class="img"><img src="images/Picture1.png" alt="ホテルのご案内 Information"></h2>
+
+          <ul id="pagenav">
+            <li><a href="#menu1">施設のご案内</a></li>
+            <li><a href="#menu2">お部屋のご案内</a></li>
+          </ul>
+
+          <h3 id="menu1">施設のご案内</h3>
+
+          <h4>エントランス</h4>
+          <p><img src="images/honkan.jpg" alt="" class="fr">
+            門をくぐると、正面には本部庁舎が見えます。</p>
+
+          <h4>大浴場</h4>
+          <p><img src="images/yokujo.jpg" alt="" class="fl">
+            鉄筋コンクリート造の２階建てで、延床面積２，４００㎡、１階に男子学生用として４個浴場、２階に女子学生用として１個浴場が整備されています。</p>
+
+          <h3 id="menu2">お部屋のご案内</h3>
+
+          <h4>お部屋：学生部屋</h4>
+          <p><img src="images/kyoshistu.jpg" alt="" class="fr">最大８名まで入ることができるシェアルームです。</p>
+
+          <h4>お部屋：指導官室</h4>
+          <p><img src="images/noimage.png" alt="" class="fl">最大４名まで入ることができるシェアルームです。</p>
+
+          <h4>お部屋：乾燥室</h4>
+          <p><img src="images/kansou.jpg" alt="" class="fr">常に乾燥しています。</p>
+
+          <h4>お部屋：服務室</h4>
+          <p><img src="images/hukumu.jpg" alt="" class="fl">完全個室のスイートルームです。</p>
+
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="images/logo2.png" alt="ロゴ">
+        <div class="footer-logo-text">
+          小原台ホテル<br>
+          <span>Obaradai Hotel</span>
+        </div>
+      </div>
+      <div class="footer-contact">
+        〒239-8686 神奈川県横須賀市走水1丁目10番20号<br>
+        TEL: 046-841-3810(代表)
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#">サイトマップ</a> |
+      <a href="#">利用規約</a> |
+      <a href="#">プライバシーポリシー</a> |
+      <a href="#">関連リンク</a>
+    </div>
+    <div class="footer-bottom">
+      &copy; <a href="index.php">Obaradai Hotel | 小原台ホテル</a>. All Rights Reserved.
+    </div>
+  </footer>
+  <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+  <div id="menubar_hdr" class="close"></div>
+  <script>
+    if (OCwindowWidth() <= 800) {
+      open_close("menubar_hdr", "menubar-s");
+    }
+  </script>
+</body>
+
+</html>
