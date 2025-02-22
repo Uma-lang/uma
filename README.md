@@ -4,27 +4,27 @@ OBARADAI  HOTEL
 
  
 OBARADAI HOTEL
-1.	概要説明	2
-2.	仕様	3
-a.	Homeページ(index.php)	3
-b.	Informationページ(info.html)	3
-c.	Planページ(plan.html)	3
-d.	Accessページ(access.html)	3
-e.	Reservationページ(reservation.html)	4
-f.	Contactページ(contact.html)	4
-g.	admin_dashboard.php	4
-h.	/api内の諸機能	5
-•	calbdar.php	5
-•	calendar_gakusei.php(他のプランについても同様)	6
-•	reservation.php	7
-•	reservation.php	8
-•	db.php	9
-3.	データベース構築手順	9
-a.	Inquiriesテーブル	9
-b.	reservationsテーブル	10
-c.	room_typeテーブル	11
-4.	具体例	12
-5.	備考	16
+1.	概要説明	
+2.	仕様	
+a.	Homeページ(index.php)	
+b.	Informationページ(info.html)	
+c.	Planページ(plan.html)	
+d.	Accessページ(access.html)	
+e.	Reservationページ(reservation.html)	
+f.	Contactページ(contact.html)	
+g.	admin_dashboard.php	
+h.	/api内の諸機能	
+•	calbdar.php	
+•	calendar_gakusei.php(他のプランについても同様)	
+•	reservation.php	
+•	reservation.php	
+•	db.php	
+3.	データベース構築手順	
+a.	Inquiriesテーブル	
+b.	reservationsテーブル	
+c.	room_typeテーブル	
+4.	具体例	
+5.	備考	
 
  
 1.	概要説明
