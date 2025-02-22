@@ -1,0 +1,93 @@
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.calendar-month {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.calendar-header h2 {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.3px;
+    background-color: #ccc;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.calendar-day-header, .calendar-day {
+    background-color: #f9f9f9;
+    padding: 3px;
+    min-height: 30px;
+    box-sizing: border-box;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.date-number {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 0.6em;
+}
+
+.availability {
+    font-size: 0.5em;
+}
+
+.available {
+    background-color: #d4edda; /* 緑色: 空きあり */
+    color: #155724;
+}
+
+.limited {
+    background-color: #fff3cd; /* 黄色: 残りわずか */
+    color: #856404;
+}
+
+.full {
+    background-color: #f8d7da; /* 赤色: 満室 */
+    color: #721c24;
+}
+
+
+.status-text {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+    .calendar-month {
+        width: 100%;
+    }
+
+    .calendar-day-header, .calendar-day {
+        padding: 2px;
+        min-height: 25px;
+        font-size: 0.5em;
+    }
+
+    .date-number {
+        font-size: 0.5em;
+    }
+
+    .availability {
+        font-size: 0.4em;
+    }
+}
